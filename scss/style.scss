@@ -2,16 +2,20 @@
     margin: 0;
     padding: 0; }
   
-  /*fondo del body*/
+  
+  
+  
+    @import "./utilities/variables";
+    /*fondo del body*/
   body {
-    background-color: #c06500; }
+    background-color: $base-color; }
   
   /*estilos navbar*/
   .encabezado {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    background-color: #c06500;
+    background-color: $color-secundario;
     position: sticky;
     z-index: 1;
     top: 0; 
@@ -100,7 +104,7 @@
   footer {
     display: grid;
     grid-template-areas: "img img firma";
-    background-color: black;
+    background-color: $color-tres;
     color: white;
     font-family: 'Trispace', sans-serif;
     margin: 5px;

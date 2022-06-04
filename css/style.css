@@ -4,14 +4,14 @@
 
 /*fondo del body*/
 body {
-  background-color: #c06500; }
+  background-color: #f9fc5b; }
 
 /*estilos navbar*/
 .encabezado {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  background-color: #c06500;
+  background-color: #fcc765;
   position: sticky;
   z-index: 1;
   top: 0; }
@@ -90,7 +90,7 @@ body {
 footer {
   display: grid;
   grid-template-areas: "img img firma";
-  background-color: black;
+  background-color: #ff7411;
   color: white;
   font-family: 'Trispace', sans-serif;
   margin: 5px;
